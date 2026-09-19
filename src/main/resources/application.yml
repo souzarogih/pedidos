@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:${POSTGRES_PORT:5432}/pedidos
+    username: pedidos
+    password: pedidos
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
